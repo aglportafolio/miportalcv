@@ -21,7 +21,9 @@
     "@angular/router": "~10.1.0",
     "jquery": "^3.5.1",
     "materialize-css": "^1.0.0",
+    "ng-circle-progress": "^1.6.0",
     "rxjs": "~6.6.0",
+    "timelinejs-slider": "^0.1.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },

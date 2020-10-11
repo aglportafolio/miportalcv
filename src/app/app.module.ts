@@ -7,6 +7,8 @@ import { PortafolioComponent } from './portafolio/portafolio.component';
 import { NavbarSocialComponent } from './portafolio/navbar-social/navbar-social.component';
 import { EncabezadoPresentacionComponent } from './portafolio/encabezado-presentacion/encabezado-presentacion.component';
 import { FormacionAcademicaComponent } from './portafolio/formacion-academica/formacion-academica.component';
+import { LineatiempoComponent } from './portafolio/lineatiempo/lineatiempo.component';
+import { ProgesoidiomasComponent } from './portafolio/progesoidiomas/progesoidiomas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FormacionAcademicaComponent } from './portafolio/formacion-academica/fo
     PortafolioComponent,
     NavbarSocialComponent,
     EncabezadoPresentacionComponent,
-    FormacionAcademicaComponent
+    FormacionAcademicaComponent,
+    LineatiempoComponent,
+    ProgesoidiomasComponent
   ],
   imports: [
     BrowserModule,
