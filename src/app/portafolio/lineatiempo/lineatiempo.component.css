@@ -1,0 +1,23 @@
+.card-content a{
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.row{
+  margin-bottom: 0;
+  align-items: center;
+}
+.card-content {
+ align-items: center;
+}
+.carousel .indicators .indicator-item{
+  border-radius: 0;
+  transform: rotate(45deg);
+  margin: 0 50px;
+  background: red;
+
+}
+.carousel .carousel-item {
+  width: 380 px;
+  height: 380 px;
+}

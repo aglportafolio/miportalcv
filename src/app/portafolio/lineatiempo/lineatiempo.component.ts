@@ -11,10 +11,19 @@ export class LineatiempoComponent implements OnInit {
 
   ngOnInit(): void {
     $('.js-timeline').Timeline({
-      autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3000
 
     });
+    $('.carousel').carousel({
+      indicators: true,
+      numVisible: 3,
+      noWrap: true,
+      dist: -80,
+      padding: 5,
+      duration: 200
+    });
+
 
   }
 

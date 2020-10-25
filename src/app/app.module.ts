@@ -10,6 +10,10 @@ import { FormacionAcademicaComponent } from './portafolio/formacion-academica/fo
 import { LineatiempoComponent } from './portafolio/lineatiempo/lineatiempo.component';
 import { ProgesoidiomasComponent } from './portafolio/progesoidiomas/progesoidiomas.component';
 
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { CursosComponent } from './portafolio/cursos/cursos.component';
+import { FooterComponent } from './portafolio/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +22,22 @@ import { ProgesoidiomasComponent } from './portafolio/progesoidiomas/progesoidio
     EncabezadoPresentacionComponent,
     FormacionAcademicaComponent,
     LineatiempoComponent,
-    ProgesoidiomasComponent
+    ProgesoidiomasComponent,
+    CursosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      // set defaults here
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      animationDuration: 300
+
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]
